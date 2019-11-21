@@ -1,0 +1,19 @@
+version: "3.5"
+services:
+  bitcoind:
+    image: "bitcoin-abc"
+    restart: always
+    build:
+      context: "./bitcoin-abc"
+    command: "bitcoind"
+    healthcheck:
+      test: ["CMD", "/entrypoint.sh", "bitcoin-cli", "getblockchaininfo"]
+    ports:
+      - "18443"
+    volumes:
+      - ./bitcoin-abc/bitcoin.conf:/data/bitcoin.conf
+    networks:
+      - regnet
+
+networks:
+  regnet:
