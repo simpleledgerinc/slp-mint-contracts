@@ -6,7 +6,8 @@ Start the test network:
 ```
 $ cd regtest
 $ docker-compose up -d
-$ docker logs -f regtest_bitcoind_1
+// optional
+$ docker logs -f regtest_bitcoind_1 
 ```
 
 Run the unit tests:

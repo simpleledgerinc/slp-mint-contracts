@@ -41,7 +41,7 @@ const validator = new LocalValidator(bitbox, async (txids) => {
 
 // load the contract file
 const MintVault = Contract.fromCashFile(
-    path.join(__dirname, "../v0-slp-mint-vault.cash"),
+    path.join(__dirname, "../slp-mint-vault-v0.cash"),
     "testnet",
 );
 

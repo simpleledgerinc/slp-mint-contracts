@@ -13,11 +13,11 @@ Features roadmap include:
 
 ### Mint Vault Versions
 
-* MintVaultV0 - Basic minting vault protects from accidental burning, uses same public key and p2sh address for each transaction
-* MintVaultV1 - Basic minting vault protects from accidental burning, requires updated public key for each transaction
-* MintVaultV2 - TBD
-* MintVaultV3 - TBD
-* MintVaultV4 - TBD
+* `slp-mint-vault-v0.cash` - Basic minting vault protects from accidental burning, uses same public key and p2sh address for each transaction
+* `slp-mint-vault-v1.cash` - Same as v0, also requires updated public key for each transaction
+* `slp-mint-vault-v2.cash` - TBD
+* `slp-mint-vault-v3.cash` - TBD
+* `slp-mint-vault-v4.cash` - TBD
 
 ### Install
 

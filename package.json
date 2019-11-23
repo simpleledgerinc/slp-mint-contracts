@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "tslint --project tsconfig.json --format stylish",
     "test": "tsc && mocha --timeout 1000000 --exit --require mocha-steps",
-    "build": "cashc -o v0-slp-mint-vault.json ./v0-slp-mint-vault.cash"
+    "build": "cashc -o slp-mint-vault-v0.json ./slp-mint-vault-v0.cash"
   },
   "author": "",
   "license": "ISC",

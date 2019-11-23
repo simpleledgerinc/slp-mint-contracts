@@ -9,7 +9,7 @@ services:
     healthcheck:
       test: ["CMD", "/entrypoint.sh", "bitcoin-cli", "getblockchaininfo"]
     ports:
-      - "18443"
+      - "18443:18443"
     volumes:
       - ./bitcoin-abc/bitcoin.conf:/data/bitcoin.conf
     networks:
