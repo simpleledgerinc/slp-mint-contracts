@@ -21,7 +21,7 @@
     "slpjs": "0.22.3",
     "bitbox-sdk": "^8.10.1",
     "spedn": "^0.2.1",
-    "slp-validate": "1.1.2",
+    "slp-validate": "1.2.1",
     "grpc-bchrpc-node": "0.8.0",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.4",
