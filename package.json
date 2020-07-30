@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "cashscript": "0.2.2-beta",
-    "slpjs": "0.22.3",
+    "slpjs": "0.27.4",
     "bitbox-sdk": "^8.10.1",
     "spedn": "^0.2.1",
     "slp-validate": "1.1.2",
